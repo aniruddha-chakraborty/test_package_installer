@@ -1,0 +1,24 @@
+{
+  "name": "package_installer",
+  "version": "1.0.0",
+  "description": "A package installer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Hedronium",
+  "license": "ISC",
+  "dependencies": {
+    "cli-color": "^1.1.0",
+    "co": "^4.6.0",
+    "co-prompt": "^1.0.0",
+    "commander": "^2.9.0",
+    "node-cmd": "^1.1.1",
+    "object-tojson": "^1.0.1",
+    "stringify-object": "^2.4.0",
+    "vorpal": "^1.11.2"
+  },
+  "bin": {
+    "Package_installer": "./index.js"
+  }
+}
