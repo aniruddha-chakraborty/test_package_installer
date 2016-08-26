@@ -6,6 +6,7 @@ var lib  	 = new lib(cmd);
 
 program
    .version('0.0.1')
+   .usage('<command>')
 
 program
 	.command('store')
